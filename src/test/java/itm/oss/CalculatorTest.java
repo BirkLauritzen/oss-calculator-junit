@@ -19,6 +19,12 @@ class CalculatorTest {
     }
 
     @Test
+    @DisplayName("Test for function sub")
+    void testSub() {
+        assertEquals(5, calc.subtract(10, 6), "10 - 6 is not 5");
+    }
+
+    @Test
     @DisplayName("Testing function isPrime with 5")
     void isFivePrime() {
         assertTrue(calc.isPrime(5), "5 is prime.");

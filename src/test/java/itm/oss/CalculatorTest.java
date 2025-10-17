@@ -21,7 +21,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Test for function sub")
     void testSub() {
-        assertEquals(5, calc.subtract(10, 6), "10 - 6 is not 5");
+        assertEquals(5, calc.subtract(10, 5), "10 - 5 is 5");
     }
 
     @Test
